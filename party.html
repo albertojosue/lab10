@@ -4,13 +4,16 @@
 </head>
 <body>
 <script>
-var answer = prompt("Give")
 
-{
-for(var num = 1; num <= end; num = num + 1)
-	console.log(num);
-}
-
+var number = prompt ("How long 'till the party?");
+var num = parseInt (number);
+if (num <= 0)
+	console.log("PARTY NOW!!!")
+else {
+	for (i = num; i >= 1; i--)
+	console.log (i);
+	console.log ("PARTY TIME!!!");
+	}
 
 </script>
 </body>
